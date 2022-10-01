@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+:root{
+    background-image: linear-gradient(rgba(25, 25, 112, 0.5), hsla(240, 64%, 16%, 0.973), rgba(25, 25, 112, 0.5)), url(../images/online-surveys.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+
+p{
+    margin:20px 0;
+}
+#survey-form{
+    padding: 10%;
+    width: 100%;
+    background: rgba(9, 9, 41, 0.5);
+    padding-top: 50px;
+}
+#survey-form{
+    width: 100%;
+}
+#email, #name, #number, select, label{
+    width: 100%;
+    height: 30px;
+    display: block;
+    margin:10px 0;
+}
+#comment{
+    /* display:flex; */
+    /* justify-content:center; */
+    
+    text-align:center;
+}
+textarea{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+    background:whitesmoke;
+}
+
+#submit{
+    background: linear-gradient(rgb(14, 14, 61), rgb(63, 63, 188),rgb(14, 14, 67));
+    font-size: 1.1rem;
+    display:flex;
+    margin: 20px auto;
+    padding:5px;
+    width: 150px;
+    border-color: blue;
+}

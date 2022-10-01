@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Survay form</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
+    <main>
     <h1 id="title">Survey Form</h1>
     <p id="description">Survey form will be to do some surveys</p>
     <form id="survey-form">
@@ -16,29 +17,35 @@
       <input type="email" name="Email" id="email" placeholder="Email" required>
       <label for="number" id="number-label">Age</label> 
       <input type="number" name="Age" id="number" min="18" max="60" placeholder="Age">
-      <p>What is your occupation?</p>
-      <select name="" id="dropdown">
+      <p id="occupation">What is your occupation?</p>
+      <select class="block" name="" id="dropdown">
         <option value="choose">choose occupation</option>
         <option value="student">student</option>
         <option value="Teacher">Teeacher</option>
         <option value="Programer">Programer</option>
         <option value="Engineer">Engineer</option>
       </select>
-      <p>Would you recommend freeCodeCamp to a friend?</p>
-      <input type="radio" name="recommendation" id="Definitely" value="Definitely">Definitely
-      <input type="radio" name="recommendation" id="" value="Maybe">Maybe
-      <input type="radio" name="recommendation" id="Not-sure" value="Not sure">Not sure
+      <p id="recommend">Would you recommend freeCodeCamp to a friend?</p>
+      <input class="block" type="radio" name="recommendation" id="Definitely" value="Definitely">Definitely
+      <br>
+      <input class="block" type="radio" name="recommendation" id="" value="Maybe">Maybe
+      <br>
+      <input class="block" type="radio" name="recommendation" id="" value="Not sure">Not sure
+      <br>
       <p>What would you like to see improved? (Check all that apply)</p>
-      <input type="checkbox" name="improve" id="" value="Projects">Projects
-      <input type="checkbox" name="improve" id="" value="Challenges">Challenges
-      <input type="checkbox" name="improve" id="" value="Javascript projects">Javascript projects
-      <p>Write your comments or suggestions here</p>
-      <textarea name="comment" id="" cols="50" rows="10">
-        Your comments here
+      <input class="block" type="checkbox" name="improve" id="" value="Projects">Projects
+      <br>
+      <input class="block" type="checkbox" name="improve" id="" value="Challenges">Challenges
+      <br>
+      <input class="block" type="checkbox" name="improve" id="" value="Javascript projects">Javascript projects
+      <br>
+      <p id="comment">Write your comments or suggestions here</p>
+      
+      <textarea name="comment" id="" cols="50" rows="10" placeholder="Your comments here">
       </textarea>
       <input type="submit" value="Submit" id="submit">
     </form>
-
+</main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
