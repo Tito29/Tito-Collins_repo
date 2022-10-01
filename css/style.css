@@ -74,5 +74,13 @@ textarea{
     margin: 20px auto;
     padding:5px;
     width: 150px;
-    border-color: blue;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 255);  
+}
+#submit:active{
+    background: linear-gradient(rgb(14, 14, 61), rgb(93, 93, 253),rgb(14, 14, 67));
+    
+}
+#submit:hover{
+    border-color: rgb(220, 220, 255);  
 }
