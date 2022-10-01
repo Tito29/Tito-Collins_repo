@@ -33,6 +33,7 @@ p{
     width: 100%;
     background: rgba(9, 9, 41, 0.5);
     padding-top: 50px;
+    
 }
 #survey-form{
     width: 100%;
@@ -43,11 +44,20 @@ p{
     display: block;
     margin:10px 0;
 }
+#email, #name, #number{
+    color: black;
+}
+ select, option{
+    width:30%;
+    color: black;
+ }
 #comment{
-    /* display:flex; */
-    /* justify-content:center; */
-    
     text-align:center;
+}
+.block{
+    margin:10px;
+    width: 1rem;
+    height: 1rem;
 }
 textarea{
     display:flex;
